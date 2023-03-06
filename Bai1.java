@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Bai1 {
-    public static void main(String[] args) {
+public class Bai1{
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt(); System.out.println("Nhập số thứ nhất: ");
-        int b = sc.nextInt(); System.out.println("Nhập số thứ haai: ");
+        float a = sc.nextInt(); System.out.println("Nhập số thứ nhất: ");
+        float b = sc.nextInt(); System.out.println("Nhập số thứ hai: ");
         
         int Tong = a + b; System.out.println(a + " + " + b + " = " + Tong); 
         int Hieu = a - b; System.out.println(a + " - " + b + " = " + Hieu);
