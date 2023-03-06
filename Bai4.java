@@ -2,12 +2,11 @@ import java.util.Scanner;
  
 public class Bai4{
     public static void main(String[] args){
-        int month;
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập 1 số nguyên từ 1 đến 12: ");
-        month = sc.nextInt();
+        int month = sc.nextInt();
          
-        switch (month){
+        switch(month){
             case 1:
                 System.out.println("Tháng " + month);
                 break;
