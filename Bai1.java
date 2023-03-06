@@ -17,6 +17,6 @@ public class Bai1{
         System.out.println("So sánh lớn hơn 2 số " + a + " và " + b + " là: " + (a > b));
         System.out.println("So sánh lớn hơn hoặc bằng 2 số " + a + " và " + b + " là: " + (a >= b));
         System.out.println("So sánh nhỏ hơn 2 số " + a + " và " + b + " là: " + (a < b));
-        System.out.println("So sánh nhSn hoặc bằng 2 số " + a + " và " + b + " là: " + (a <= b));
+        System.out.println("So sánh nhỏ hơn hoặc bằng 2 số " + a + " và " + b + " là: " + (a <= b));
     }
 }
